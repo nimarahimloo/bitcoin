@@ -1,3 +1,33 @@
+# New Currency (Bitcoin Core Fork)
+
+This is a fork of Bitcoin Core intended for creating a new independent cryptocurrency.
+
+**Repository:** https://github.com/nimarahimloo/bitcoin  
+**Branch:** `new-currency`
+
+## Project Goal
+We are building a new currency unit together, starting from Bitcoin Core.
+
+### Planned changes (in progress):
+- Rename the currency (ticker, name, units)
+- Generate a new genesis block
+- Adjust block reward, halving schedule, and total supply
+- Change network ports and magic bytes
+- Update seeds and checkpoints
+- Rebrand GUI and documentation
+
+## Current Status
+- Forked from official Bitcoin Core
+- Working branch: `new-currency`
+- Next steps: Modify `src/chainparams.cpp` and related files
+
+## Original Bitcoin Core
+This project is based on [Bitcoin Core](https://github.com/bitcoin/bitcoin).
+
+Original README content below for reference.
+
+---
+
 Bitcoin Core integration/staging tree
 =====================================
 
